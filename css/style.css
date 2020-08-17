@@ -97,8 +97,24 @@ footer a:hover {
         position: fixed;
         margin-top: 60px;
         height: 90%;
+        width: 30%;
+    }
+    #navbar li {
+        padding: .4rem 0 .6rem 1rem;
     }
     #main-doc {
         width: 60%;
     }
 }   
+
+@media screen and (min-width: 1100px){
+    header {
+        width: 25%;
+    }
+    #navbar ul {
+        width: 25%;
+    }
+    #main-doc {
+        width: 70%;
+    }
+}
